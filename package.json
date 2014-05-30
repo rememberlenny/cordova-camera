@@ -1,0 +1,26 @@
+{
+  "name": "camera-api-cordova",
+  "version": "0.1.0",
+  "description": "Constructor for accessing the Cordova Camera API ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rememberlenny/cordova-camera.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "camera",
+    "android",
+    "phonegap"
+  ],
+  "author": "Leonard K. Bogdonoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rememberlenny/cordova-camera/issues"
+  },
+  "homepage": "https://github.com/rememberlenny/cordova-camera"
+}
