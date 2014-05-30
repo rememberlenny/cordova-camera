@@ -1,6 +1,6 @@
 {
   "name": "camera-api-cordova",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Constructor for accessing the Cordova Camera API ",
   "main": "index.js",
   "scripts": {

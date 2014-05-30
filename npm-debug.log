@@ -1,0 +1,107 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', '--tag', '0.1.1' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/lkbgift/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-27535-2dFM66RX/1401483412139-0.8747696774080396/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-27535-2dFM66RX/1401483412139-0.8747696774080396/tmp.tgz
+12 verbose folder .
+13 info prepublish camera-api-cordova@0.1.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/lkbgift/.npm/1f1177db-tar.lock
+16 silly lockFile 7f17828d-12139-0-8747696774080396-tmp-tgz tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-27535-2dFM66RX/1401483412139-0.8747696774080396/tmp.tgz
+17 verbose lock tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-27535-2dFM66RX/1401483412139-0.8747696774080396/tmp.tgz /Users/lkbgift/.npm/7f17828d-12139-0-8747696774080396-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 7f17828d-12139-0-8747696774080396-tmp-tgz tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-27535-2dFM66RX/1401483412139-0.8747696774080396/tmp.tgz
+21 silly lockFile 7f17828d-12139-0-8747696774080396-tmp-tgz tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-27535-2dFM66RX/1401483412139-0.8747696774080396/tmp.tgz
+22 verbose tar unpack /var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-27535-2dFM66RX/1401483412139-0.8747696774080396/tmp.tgz
+23 silly lockFile 7ad897c3-camera-api-cordova-0-1-0-package tar:///Users/lkbgift/.npm/camera-api-cordova/0.1.0/package
+24 verbose lock tar:///Users/lkbgift/.npm/camera-api-cordova/0.1.0/package /Users/lkbgift/.npm/7ad897c3-camera-api-cordova-0-1-0-package.lock
+25 silly lockFile 7f17828d-12139-0-8747696774080396-tmp-tgz tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-27535-2dFM66RX/1401483412139-0.8747696774080396/tmp.tgz
+26 verbose lock tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-27535-2dFM66RX/1401483412139-0.8747696774080396/tmp.tgz /Users/lkbgift/.npm/7f17828d-12139-0-8747696774080396-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry index.js
+30 silly lockFile 7ad897c3-camera-api-cordova-0-1-0-package tar:///Users/lkbgift/.npm/camera-api-cordova/0.1.0/package
+31 silly lockFile 7ad897c3-camera-api-cordova-0-1-0-package tar:///Users/lkbgift/.npm/camera-api-cordova/0.1.0/package
+32 silly lockFile 7f17828d-12139-0-8747696774080396-tmp-tgz tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-27535-2dFM66RX/1401483412139-0.8747696774080396/tmp.tgz
+33 silly lockFile 7f17828d-12139-0-8747696774080396-tmp-tgz tar:///var/folders/tj/kw_j4ymd40n_yyg9bzp9kn7w0000gn/T/npm-27535-2dFM66RX/1401483412139-0.8747696774080396/tmp.tgz
+34 silly lockFile 3a52ce78- .
+35 silly lockFile 3a52ce78- .
+36 silly publish { name: 'camera-api-cordova',
+36 silly publish   version: '0.1.0',
+36 silly publish   description: 'Constructor for accessing the Cordova Camera API ',
+36 silly publish   main: 'index.js',
+36 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+36 silly publish   repository:
+36 silly publish    { type: 'git',
+36 silly publish      url: 'git@github.com:rememberlenny/cordova-camera.git' },
+36 silly publish   keywords: [ 'cordova', 'ios', 'camera', 'android', 'phonegap' ],
+36 silly publish   author: { name: 'Leonard K. Bogdonoff' },
+36 silly publish   license: 'ISC',
+36 silly publish   bugs: { url: 'https://github.com/rememberlenny/cordova-camera/issues' },
+36 silly publish   homepage: 'https://github.com/rememberlenny/cordova-camera',
+36 silly publish   readme: 'ERROR: No README data found!',
+36 silly publish   _id: 'camera-api-cordova@0.1.0',
+36 silly publish   _shasum: 'f97d931c7e59f9b9d8017ab54ecf550d8b28b1fe',
+36 silly publish   _from: '.' }
+37 verbose url raw camera-api-cordova
+38 verbose url resolving [ 'https://registry.npmjs.org/', './camera-api-cordova' ]
+39 verbose url resolved https://registry.npmjs.org/camera-api-cordova
+40 info trying registry request attempt 1 at 16:56:52
+41 http PUT https://registry.npmjs.org/camera-api-cordova
+42 http 403 https://registry.npmjs.org/camera-api-cordova
+43 verbose headers { date: 'Fri, 30 May 2014 20:56:53 GMT',
+43 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+43 verbose headers   'content-type': 'application/json',
+43 verbose headers   'cache-control': 'max-age=1',
+43 verbose headers   'content-length': '2229',
+43 verbose headers   'accept-ranges': 'bytes',
+43 verbose headers   via: '1.1 varnish',
+43 verbose headers   'x-served-by': 'cache-d97-DAL',
+43 verbose headers   'x-cache': 'MISS',
+43 verbose headers   'x-cache-hits': '0',
+43 verbose headers   'x-timer': 'S1401483412.942686,VS0,VE202',
+43 verbose headers   'keep-alive': 'timeout=10, max=50',
+43 verbose headers   connection: 'Keep-Alive' }
+44 error publish Failed PUT 403
+45 error Error: forbidden cannot modify pre-existing version: 0.1.0
+45 error old={"name":"camera-api-cordova","version":"0.1.0","description":"Constructor for accessing the Cordova Camera API ","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git@github.com:rememberlenny/cordova-camera.git"},"keywords":["cordova","ios","camera","android","phonegap"],"author":{"name":"Leonard K. Bogdonoff"},"license":"ISC","bugs":{"url":"https://github.com/rememberlenny/cordova-camera/issues"},"homepage":"https://github.com/rememberlenny/cordova-camera","_id":"camera-api-cordova@0.1.0","_shasum":"d47eaefde26b86608f437f4eb6df737905d5c2b9","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"rememberlenny","email":"lenny@atriangle.com"},"maintainers":[{"name":"rememberlenny","email":"lenny@atriangle.com"}],"dist":{"shasum":"d47eaefde26b86608f437f4eb6df737905d5c2b9","tarball":"http://registry.npmjs.org/camera-api-cordova/-/camera-api-cordova-0.1.0.tgz"}}
+45 error new={"name":"camera-api-cordova","version":"0.1.0","description":"Constructor for accessing the Cordova Camera API ","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git@github.com:rememberlenny/cordova-camera.git"},"keywords":["cordova","ios","camera","android","phonegap"],"author":{"name":"Leonard K. Bogdonoff"},"license":"ISC","bugs":{"url":"https://github.com/rememberlenny/cordova-camera/issues"},"homepage":"https://github.com/rememberlenny/cordova-camera","readme":"ERROR: No README data found!","_id":"camera-api-cordova@0.1.0","_shasum":"f97d931c7e59f9b9d8017ab54ecf550d8b28b1fe","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"rememberlenny","email":"lenny@atriangle.com"},"maintainers":[{"name":"rememberlenny","email":"lenny@atriangle.com"}],"dist":{"shasum":"f97d931c7e59f9b9d8017ab54ecf550d8b28b1fe","tarball":"http://registry.npmjs.org/camera-api-cordova/-/camera-api-cordova-0.1.0.tgz"}}: camera-api-cordova
+45 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+45 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+45 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+45 error     at Request.EventEmitter.emit (events.js:98:17)
+45 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+45 error     at Request.EventEmitter.emit (events.js:117:20)
+45 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+45 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+45 error     at _stream_readable.js:919:16
+45 error     at process._tickCallback (node.js:419:13)
+46 error If you need help, you may report this *entire* log,
+46 error including the npm and node versions, at:
+46 error     <http://github.com/npm/npm/issues>
+47 error System Darwin 13.1.0
+48 error command "node" "/usr/local/bin/npm" "publish" "--tag" "0.1.1"
+49 error cwd /Users/lkbgift/Spaceship/cordova-camera
+50 error node -v v0.10.28
+51 error npm -v 1.4.9
+52 verbose exit [ 1, true ]
