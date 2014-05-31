@@ -1,4 +1,4 @@
-var CameraApp = function(){
+var CameraApp = modules.export.cordovaCamera = function(){
   var self = this;
   this.pictureSource;   // picture source
   this.destinationType; // sets the format of returned value
